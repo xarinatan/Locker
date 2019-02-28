@@ -9,7 +9,7 @@ inputLine=$@
 inputLineArr=($inputLine)
 
 function ctrl_c() {
-    if weAreRunning ;
+    if $weAreRunning ;
     then
         echo -n "Ctrl+C Caught. "
         clean_exit
